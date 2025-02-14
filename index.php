@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Оцените свои навыки PHP программирования!  Наш тест по функциям PHP поможет вам выявить пробелы в знаниях и улучшить ваш код.">
     <title>Тест на знание функций PHP</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="media/logo_short.png" type="image/png">
