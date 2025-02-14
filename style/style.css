@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.correct{color: green;}
+.incorrect{color: red;}
+.gray{color:gray;}
+
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 200px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.formContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.formContainer,
+.testForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testForm{
+    width: 100%;
+}
+
+.questionBlock{
+    padding: 30px 20px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
+
+
+.questionBlock p{
+    margin-bottom: 10px;
+}
+
+.inputAnswer{
+    padding: 5px;
+}
+
+.accent-button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(107, 139, 255);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.accent-button:hover{
+    background-color: rgb(94, 128, 252);
+}
+
+.footer{
+    padding: 30px;
+    border-top: 1px solid gray;
+}
+
+.footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .wrapper .logo{
+    width: 150px;
+}
